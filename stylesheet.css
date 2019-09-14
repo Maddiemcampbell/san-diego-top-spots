@@ -1,15 +1,7 @@
-#header{
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
     text-align: center;
 }
-
-.container1{
-    padding: 15px;
-    background: darkcyan;
-    background-clip: border-box;  
-}
-
-.container2 {
-    padding: 15px;
-    background: lightgray;
-    background-clip: border-box;  
-  }
