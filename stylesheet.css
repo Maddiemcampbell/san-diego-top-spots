@@ -1,7 +1,20 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
 }
 
-h1{
+
+#header{
     text-align: center;
+    padding: 25px;
+    background: white;
+    opacity: .80;
+    background-clip: border-box;  
+  }
+
+#container2{
+    padding: 15px;
+    background: white;
+    opacity: .80;
+    background-clip: border-box;  
 }
