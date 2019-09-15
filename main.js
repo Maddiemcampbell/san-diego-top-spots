@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.getJSON('data.json', function(data){
-        $.each(data, function (value){
+        $.each(data, function (index, value){
             $("table").append("<tr><td>" 
             + value.name + "</td><td>" 
             + value.description + "</td><td><a href=https://www.google.com/maps?q=" 
